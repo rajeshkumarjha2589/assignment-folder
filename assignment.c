@@ -1,17 +1,4 @@
 
-assignment question solution
-Input: towers = [[1,2,5],[2,1,7],[3,1,9]], radius = 2
-Output: [2,1]
-Explanation: At coordinate (2, 1) the total quality is 13.
-- Quality of 7 from (2, 1) results in ⌊7 / (1 + sqrt(0)⌋ = ⌊7⌋ = 7
-- Quality of 5 from (1, 2) results in ⌊5 / (1 + sqrt(2)⌋ = ⌊2.07⌋ = 2
-- Quality of 9 from (3, 1) results in ⌊9 / (1 + sqrt(1)⌋ = ⌊4.5⌋ = 4
-No other coordinate has a higher network quality.
-
-
-Solution in c language 
-
-
 #include <stdio.h>
 #include <math.h>
 #include <limits.h>
